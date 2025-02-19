@@ -1,4 +1,4 @@
-# 🌐 Controle de Investimentos
+# 🌐 Controle de Investimentos - Front-end
 
 ## 📑 Sumário
 - [Objetivos do Projeto](#-objetivos-do-projeto)
