@@ -27,18 +27,9 @@ Este é um sistema para cadastro, atualização e visualização de investimento
 ## 🛠 Tecnologias Utilizadas:
 - *Frontend*: O front-end do sistema foi desenvolvido utilizando Angular, oferecendo uma interface interativa e fácil de usar.
 - *Estilo*: Foi utilizado Bootstrap para garantir um design responsivo e atraente, com componentes prontos para facilitar o desenvolvimento da interface.
-- *Backend*: Para o backend, um servidor JSON foi configurado para realizar as operações de CRUD (Create, Read, Update, Delete) dos investimentos.
+- *Backend*: O backend foi desenvolvido em Node.js com Express, permitindo a realização de operações de CRUD (Create, Read, Update, Delete) para gerenciar os investimentos.
 
 ## 💻 Como Executar:
-- *Instalação do JSON Server*: Primeiro, instale o JSON Server globalmente na sua máquina com o seguinte comando:
-```sh
-npm install -g json-server
-```
-- *Iniciar o JSON Server*: Para iniciar o servidor back-end e simular um banco de dados, execute o seguinte comando na pasta back-end:
-```sh
-json-server --watch db.json --port 3000
-```
-Isso iniciará o back-end na URL http://localhost:3000.
 - *Instalar as Dependências*: No diretório do seu projeto Angular, instale as dependências necessárias, incluindo o HttpClientModule para interagir com o JSON Server:
 ```sh
 npm install
