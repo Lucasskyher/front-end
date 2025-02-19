@@ -37,7 +37,7 @@ git clone https://github.com/Lucasskyher/front-end
 ```sh
 npm install
 ```
-- *Inicar Servidor Angular*: Execute o seguinte comando no diretório do projeto (pasta front-end):
+- *Iniciar Servidor Angular*: Execute o seguinte comando no diretório do projeto (pasta front-end):
 ```sh
 ng serve
 ```
