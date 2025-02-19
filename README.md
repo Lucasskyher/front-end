@@ -10,7 +10,7 @@
 
 
 ## 🎯 Objetivos do Projeto
-Este é um sistema para cadastro, atualização e visualização de investimentos, onde é possível cadastrar novos investimentos, editar e excluir investimentos existentes, e visualizar uma lista de investimentos registrados
+O front-end do sistema de Controle de Investimentos, desenvolvido com Angular, é fundamental para garantir uma experiência interativa e intuitiva para o usuário. Ele permite que o usuário cadastre, edite, exclua e visualize investimentos, com validações no lado do cliente para garantir dados corretos antes de serem enviados ao back-end. Utilizando Bootstrap, a interface é responsiva, adaptando-se a diferentes dispositivos. A comunicação com o back-end é feita via requisições HTTP, mantendo os dados atualizados em tempo real. Além disso, o front-end oferece feedback ao usuário por meio de mensagens de sucesso ou erro, gerencia o estado da aplicação de forma eficiente e permite fácil manutenção e expansão do sistema.
 
 ## 🔥 Funcionalidades Principais
 - *Cadastrar novos investimentos*: Inserir informações como nome, tipo, valor investido e data do investimento.
@@ -27,14 +27,17 @@ Este é um sistema para cadastro, atualização e visualização de investimento
 ## 🛠 Tecnologias Utilizadas:
 - *Frontend*: O front-end do sistema foi desenvolvido utilizando Angular, oferecendo uma interface interativa e fácil de usar.
 - *Estilo*: Foi utilizado Bootstrap para garantir um design responsivo e atraente, com componentes prontos para facilitar o desenvolvimento da interface.
-- *Backend*: O backend foi desenvolvido com NodeJS com Express, permitindo a realização de operações de CRUD (Create, Read, Update, Delete) para gerenciar os investimentos.
 
 ## 💻 Como Executar:
-- *Instalar as Dependências*: No pasta front-end do projeto angular, instale as dependências necessárias:
+- *Clonar Repositório*: Abra o terminal ou prompt de comando, navegue até a pasta onde deseja clonar, e execute este comando:
+```sh
+git clone https://github.com/Lucasskyher/front-end
+```
+- *Instalar as Dependências*: Na pasta front-end do projeto angular, instale as dependências necessárias:
 ```sh
 npm install
 ```
-- *Inicar Servidor Angular*: Eexecute o seguinte comando no diretório do projeto (pasta front-end):
+- *Inicar Servidor Angular*: Execute o seguinte comando no diretório do projeto (pasta front-end):
 ```sh
 ng serve
 ```
