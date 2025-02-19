@@ -27,10 +27,10 @@ Este é um sistema para cadastro, atualização e visualização de investimento
 ## 🛠 Tecnologias Utilizadas:
 - *Frontend*: O front-end do sistema foi desenvolvido utilizando Angular, oferecendo uma interface interativa e fácil de usar.
 - *Estilo*: Foi utilizado Bootstrap para garantir um design responsivo e atraente, com componentes prontos para facilitar o desenvolvimento da interface.
-- *Backend*: O backend foi desenvolvido em Node.js com Express, permitindo a realização de operações de CRUD (Create, Read, Update, Delete) para gerenciar os investimentos.
+- *Backend*: O backend foi desenvolvido com NodeJS com Express, permitindo a realização de operações de CRUD (Create, Read, Update, Delete) para gerenciar os investimentos.
 
 ## 💻 Como Executar:
-- *Instalar as Dependências*: No diretório do seu projeto Angular, instale as dependências necessárias, incluindo o HttpClientModule para interagir com o JSON Server:
+- *Instalar as Dependências*: No pasta front-end do projeto angular, instale as dependências necessárias:
 ```sh
 npm install
 ```
