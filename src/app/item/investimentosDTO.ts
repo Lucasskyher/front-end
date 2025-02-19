@@ -1,4 +1,4 @@
-export interface Item {
+export interface InvestimentosDTO {
     id:number,
     name:string,
     type:string,

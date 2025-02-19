@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from '../item';
+import { InvestimentosDTO } from '../investimentosDTO';
 import { ItemService } from '../item.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { ItemService } from '../item.service';
 })
 export class HomeComponent implements OnInit{
   
-  items: Item[]=[];
+  items: InvestimentosDTO[]=[];
 
   constructor(private itemService:ItemService){}
 

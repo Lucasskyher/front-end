@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ItemService } from '../item.service';
-import { Item } from '../item';
+import { InvestimentosDTO } from '../investimentosDTO';
 
 @Component({
   selector: 'app-edit',
@@ -10,7 +10,7 @@ import { Item } from '../item';
 })
 export class EditComponent implements OnInit {
 
-  item: Item = {
+  item: InvestimentosDTO = {
     id: 0,
     name: '',
     type: '',

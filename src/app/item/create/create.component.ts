@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Item } from '../item';
+import { InvestimentosDTO } from '../investimentosDTO';
 import { ItemService } from '../item.service';
 import { Router } from '@angular/router';
 
@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class CreateComponent {
 
-  item: Item = {
+  item: InvestimentosDTO = {
     id: 0,
     name: '',
     type: '',
